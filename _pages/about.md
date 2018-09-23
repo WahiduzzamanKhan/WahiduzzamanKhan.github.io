@@ -2,6 +2,6 @@
 title: "About"
 permalink: /about/
 header:
-	image:""
+	image:"/../images/me.jpg"
 ---
 Ba ba black sheep!
