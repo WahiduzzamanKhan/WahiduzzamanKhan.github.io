@@ -102,7 +102,7 @@ analytics:
 # Site Author
 author:
   name             : "Wahiduzzaman Khan"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : "images/me.jpg"
   bio              : "I am Wahiduzzaman Khan. Currently studying Statistics for my B.Sc. (Hons) degree. I am self-motivated data analyst."
   location         : "Sylhet, Bangladesh"
   email            :
