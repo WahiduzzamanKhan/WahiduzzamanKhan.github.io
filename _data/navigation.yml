@@ -1,6 +1,6 @@
 # main links
 main:
   - title: "About"
-    url: /about/
+    url: _pages/about.md
   - title: "Data Cleaning"
     url: /data-cleaning/
