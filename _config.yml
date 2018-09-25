@@ -108,8 +108,8 @@ author:
   email            :
   links:
     - label: "Email"
-      icon: "fas fa-fw fa-envelope-square"
-      # url: mailto:your.name@email.com
+      icon: "fas fa-fw fa-envelope"
+      url: mailto:wahiduzzamankhan007@gmail.com
     - label: "Website"
       icon: "fas fa-fw fa-link"
       # url: "https://your-website.com"
@@ -125,6 +125,9 @@ author:
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       # url: "https://instagram.com/"
+    - label: "UpWork"
+      icon: 
+      url: "https://www.upwork.com/o/profiles/users/_~018d97e166fa2645bd/"
 
 # Site Footer
 footer:
@@ -153,6 +156,7 @@ footer:
 include:
   - .htaccess
   - _pages
+  - _posts
 exclude:
   - "*.sublime-project"
   - "*.sublime-workspace"
