@@ -35,13 +35,13 @@
 >
   {% if page.header.overlay_color or page.header.overlay_image_home %}
     <div class="wrapper">
-      <h2 style="color: #fff; text-shadow: 1px 1px 4px rgba(#000, 0.5); font-size: 2.4em;">
-        {% if page.header.show_overlay_excerpt != false and page.title_excerpt %}
-          {{page.title_excerpt}}
+      <div style="color: #fff; text-shadow: 1px 1px 4px rgba(#000, 0.5); font-size: 2.4em;">
+        {% if page.header.show_hero_text != false and page.big_hero_text %}
+          {{page.big_hero_text}}
         {% endif %}
-      </h2>
-      {% if page.header.show_overlay_excerpt != false and page.excerpt %}
-        <p class="page__lead">{{ page.excerpt | markdownify | remove: "<p>" | remove: "</p>" }}</p>
+      </div>
+      {% if page.header.show_hero_text != false and page.small_hero_text %}
+        <p class="page__lead">{{ page.small_hero_text }}</p>
       {% endif %}
       {% if page.read_time %}
         <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> {% include read-time.html %}</p>
