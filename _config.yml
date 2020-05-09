@@ -39,14 +39,14 @@ footer:
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
-  - title: twitter
-    url: 
+  - title: linkedin
+    url: https://www.linkedin.com/in/wahiduzzaman-khan-2014134007
   - title: facebook
-    url:
+    url: facebook.com/chisty.khan
   - title: stack-overflow
-    url: 
+    url: https://stackoverflow.com/users/10488754/wahiduzzaman-khan
   - title: github
-    url: 
+    url: https://github.com/WahiduzzamanKhan
 
 # Postal address (add as many lines as necessary)
 address:

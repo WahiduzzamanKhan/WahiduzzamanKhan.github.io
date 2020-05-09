@@ -204,6 +204,10 @@ section.success {
     padding-bottom: 0;
 }
 
+.services-item {
+    margin-top: 30px;
+}
+
 #services .icon-image {
     height: 100px;
     width: 100px;
