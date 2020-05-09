@@ -200,6 +200,24 @@ section.success {
     }
 }
 
+#services {
+    padding-bottom: 0;
+}
+
+#services .icon-image {
+    height: 100px;
+    width: 100px;
+    margin: 0 auto;
+}
+
+#services .service-title{
+    text-align: center
+}
+
+#services .service-details{
+    text-align: center;
+}
+
 #portfolio .portfolio-item {
     right: 0;
     margin: 0 0 15px;

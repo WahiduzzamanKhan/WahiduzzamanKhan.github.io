@@ -59,6 +59,13 @@ credits: 'In God we trust. All others must bring data.<br>- W. Edwards Deming'
 markdown: kramdown
 permalink: pretty
 
+#collectios
+collections:
+  posts:
+    relative_directory: _posts
+  services:
+    relative_directory: _services
+
 #for posts
 defaults:
   - scope:
