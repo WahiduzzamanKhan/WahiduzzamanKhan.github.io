@@ -24,14 +24,21 @@
 							<p class="help-block text-danger"></p>
 						</div>
 					</div>
+					<div class="row control-group">
+						<div class="form-group col-xs-12 floating-label-form-group controls">
+							<label for="name">Project Type</label>
+							<input type="text" name="project_type" class="form-control" placeholder="Project Type" id="project-type" required data-validation-required-message="Please give a project type.">
+							<p class="help-block text-danger"></p>
+						</div>
+					</div>
 					<div>
-						<input type="hidden"  name="_subject" value="New submission!">
+						<input type="hidden"  name="_subject" value="New project request!">
 						<input type="text" name="_gotcha" style="display:none" />
 					</div>
 					<div class="row control-group">
 						<div class="form-group col-xs-12 floating-label-form-group controls">
-							<label for="message">Message</label>
-							<textarea rows="5" name="message" class="form-control" placeholder="Message" id="message" required data-validation-required-message="Please enter a message."></textarea>
+							<label for="message">Describe your project</label>
+							<textarea rows="5" name="project_description" class="form-control" placeholder="Describe your project" id="message" required data-validation-required-message="Please Describe your project briefly."></textarea>
 							<p class="help-block text-danger"></p>
 						</div>
 					</div>
@@ -39,7 +46,7 @@
 					<div id="success"></div>
 					<div class="row">
 						<div class="form-group col-xs-12">
-							<button type="submit" class="btn btn-success btn-lg">Send</button>
+							<button type="submit" class="btn btn-success btn-lg">Get A Quote</button>
 						</div>
 					</div>
 				</form>
