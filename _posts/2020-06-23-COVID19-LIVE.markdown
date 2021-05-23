@@ -1,11 +1,11 @@
 ---
 layout: default
-modal-id: 2
+modal-id: 1
 date: 2020-06-23
-img: map page.jpg
+img: covid.png
 alt: image-alt
 project-date: June 2020
 client: Personal Project
 category: Shiny Dashboard
-description: Created a dashboard on COVID-19. It can help you to get an idea about the Corona situation worldiwde. The dashboard has three main parts; Overview, Map and Graphs. The dashboard is available <a href="https://wahiduzzaman-khan.shinyapps.io/covid-19-live">here</a>.
+description: Created a dashboard on COVID-19. It can help you to get an idea about the Corona situation worldiwde. The dashboard has three main parts; Overview, Map and Graphs. Check the <a href="https://github.com/WahiduzzamanKhan/covid19-dashboard">github repository</a> for the code. Alive version of the dashboard is available <a href="https://shiny.wahidkhan.me/covid19">here</a>.
 ---
